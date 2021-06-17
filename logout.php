@@ -1,0 +1,13 @@
+<?php
+session_start();
+unset($_SESSION["stunumber"]);
+unset($_SESSION["locker_name"]);
+unset($_SESSION["period"]);
+unset($_SESSION["cost"]);
+unset($_SESSION["status"]);
+unset($_SESSION["method"]);
+unset($_SESSION["cardnumber"]);
+unset($_SESSION["stuid"]);
+unset($_SESSION["locker_id"]);
+header("location:login.php");
+?>
